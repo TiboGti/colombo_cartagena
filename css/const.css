@@ -1,0 +1,73 @@
+:root{
+    --white-primary:#FFFFFF;
+    --white-secundary:#F9F9F9;
+    --blue-primary:#21508E;
+    --blue-hover:#5274A9;
+    --blue-secundary:#155099;
+    --yellow-primary:#FBE47E;
+    --red-primary:#D34D57;
+    --red-hover: #D34D5780;
+    --ghray-primary:#DEE3ED;
+    --gray--hover:#DEE3ED;
+    --btn-card-w:148px;
+    --btn-card-h:57px;
+    --font-size-n:20px;
+    --font-size-s:14px;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media screen and (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media screen and (min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+@media screen and (min-width:1400px){
+    .container{
+        max-width: 1260px;
+    }
+}
+@media screen and (min-width:1800px){
+    .container{
+        max-width: 1540px;
+    }
+}

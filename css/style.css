@@ -1,0 +1,64 @@
+@import url('./const.css');
+
+header{
+    width: 100%;
+    position: fixed;
+}
+
+header .header__cabezera{
+    width: 100%;
+    height: 40px;
+    background-color: var(--blue-primary);
+
+}
+
+header .header__cabezera--content{
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: var(--font-size-s);
+    color: var(--white-primary);
+}
+header .header__cabezera--lenguajes{
+    display: flex;
+    place-items: center;
+    place-content: center;
+    width: 124px;
+    height: 40px;
+    font-size: var(--font-size-s);
+    background: var(--red-primary);
+
+}
+
+header nav {
+    width: 100%;
+    height: 130px;
+    background: var(--white-primary);
+    
+}
+
+header nav .navbar--content{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    height: 130px;
+}
+
+nav .navbar--content .navbar--content-items ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav .navbar--content .navbar--content-items ul .item{
+    margin-inline: 20px;
+    font-size: var(--font-size-n);
+    color: var(--blue-primary);
+    cursor: pointer;
+}
+
+nav .navbar--content .navbar--content-items ul .item:hover{
+color: var(--blue-hover);
+}
